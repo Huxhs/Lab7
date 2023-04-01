@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Changer</title>
+    <script>
+        function changeImage(imgSrc) {
+            document.getElementById("image-box").src = imgSrc;
+        }
+    </script>
+</head>
+<body>
+    <h1>Image Changer</h1>
+    <button onclick="changeImage('images/easter.jpeg')">Easter</button>
+    <button onclick="changeImage('images/halloween.jpeg')">Halloween</button>
+    <button onclick="changeImage('images/winter.jpeg')">Christmas</button>
+    <br><br>
+    <img id="image-box" src="Images/click.jpeg" width="500" height="500">
+</body>
+</html>
